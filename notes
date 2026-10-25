@@ -1,0 +1,67 @@
+React Router Dom -> 
+
+5 lecture -> react -> 
+router -> 
+architecutre patterns ->
+    system design -> 
+        LLD HLD -> LLD -> Low level design 
+    
+Redux -> (useReducer + context) + few more additions ->  slices, extraReducers -> 
+ Context -> multiple context, redux you can only have 1 store 
+
+Tailwind -> 
+Combination things ->  
+
+
+React -> compile -> 
+    React code -> ship -> 
+    Browser -> 
+
+
+Bundling -> 
+    This bundling process is handled by a bundler -> 
+        Examples ->
+            1. Vite  (this we are using) -> jgh leli hai 
+            2. Webpack  (OG bundler ) -> slow -> 
+            3. Rollup 
+            4. Parcel 
+            5. 
+
+    Bundler -> 
+        1 js -> which is a combination of a lot of jsx or js files -> 
+        2. I want to remove all my comments 
+        3. remove dead code from my files ()
+
+    Bundle -> A lot of JS together -> 
+
+
+0.06 mb 
+1mb = 1000kb
+
+BrowerRouter -> should enclose maximum of our codebase 
+Routes and Route -> through this we basically create our mechanism to control routing
+    Route -> path, and which element will it load 
+
+Redirections -> 
+    Link -> It internally uses a <a> tag -> and it takes us to a different page -> redireciton
+
+Dynamic Routes -> 
+    /hotel -> 
+
+    individual page -> will carry almost the same UI as per the React norm???
+
+    Route -> 
+        hotel/:hotelId
+        blog/:blogId
+
+Path parameter -> www.facebook.com/users/:name
+                    www.makeyouritinerary.com/:country/:month
+Query Parameter -> www.facebook.com?filter='naman-jindal' 
+
+useLocation -> history (navigation) api -> almost all information 
+    -> params, query params, konse route ?
+
+useSearchParams -> query params -> 
+useParams -> path params
+
+self exploration -> documenation -> for more hooks which are present 

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 
 //internal state changes -> 
 
@@ -12,11 +12,13 @@ function RenderContent(state: string){
 }
 
 export default function App() {
+    console.log('rule is applied')
     const [state, setState]= useState('home')
     
 
   return (
     <>
+        {console.log('something')}
         <button onClick={()=> setState('blog')}>Blog</button>
         <button onClick={()=> setState('home')}>Home</button>
         {RenderContent(state)}

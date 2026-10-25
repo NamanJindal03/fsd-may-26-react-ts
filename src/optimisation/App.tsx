@@ -1,15 +1,15 @@
 import Child from "./Child"
-import { useState, useMemo, useCallback } from "react"
+import { useState, useCallback } from "react"
 
 export default function App() {
     const [state, setState] = useState(0);
     const [arrLinkedState, setState2] = useState([1,23,4,4])
-    const someArr = useMemo(()=>{
-        return arrLinkedState //break???
+    // const someArr = useMemo(()=>{
+    //     return arrLinkedState //break???
 
-        // return ()=>{} //unmounting -> 
+    //     // return ()=>{} //unmounting -> 
 
-    },[arrLinkedState]) //useEffect -> dependency array ->
+    // },[arrLinkedState]) //useEffect -> dependency array ->
 
     const memoizedDoRandomThing = useCallback(
         ()=>{

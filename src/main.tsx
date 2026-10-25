@@ -5,7 +5,8 @@ import './index.css'
 // import App from './ThemeContext/App'
 // import App from './reducer/App'
 // import App from './optimisation/App'
-import App from './router-intro/App'
+// import App from './router-intro/App'
+import App from './router/app'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
